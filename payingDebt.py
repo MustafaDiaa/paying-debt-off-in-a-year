@@ -1,6 +1,8 @@
 """paying-debt-off-in-a-year
 calculates the minimum fixed monthly payment needed in order pay off a credit card balance within 12 months."""
 
+import time
+start_time = time.clock()
 balance = 3329	#original credit card balance
 initialBalance = balance	#assigning balance to cosntant initialBalance 
 annualInterestRate = 0.2	#constant annualInterestRate for each month
@@ -29,3 +31,4 @@ while True:		#loop true until remainingBalance <= 0
 
 print 'Total Paid: ' + str(totalPaid)
 print 'Lowest Payment: ' + str(ans)
+print time.clock() - start_time, ' seconds'
