@@ -2,7 +2,7 @@
 calculates the minimum fixed monthly payment needed in order pay off a credit card balance within 12 months."""
 
 import time
-start_time = time.clock()
+start_time = time.clock()       #begining of calculating seconds till end of calculating
 balance = 3329	#original credit card balance
 initialBalance = balance	#assigning balance to cosntant initialBalance 
 annualInterestRate = 0.2	#constant annualInterestRate for each month
